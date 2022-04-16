@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>selectors</title>
+    <style>
+        
+        /* Universal selector */
+        /* *{
+            background-color: springgreen;
+            color: brown;
+        } */
+
+        /* class selector */
+        .container{
+            color: brown ;
+
+        }
+        .container2{
+            /* color: tomato; */
+            font-size: xx-large;
+            font-style: italic;
+
+        } 
+
+        /* id selector */
+        #one{
+            font-size: x-large;
+        }
+
+        /* grouping */
+        .one, .two, .three, #one{ 
+            background-color: yellowgreen;
+            color: tomato;
+            font-size: larger;
+        }
+        /* select tag with multiple tag  */
+         
+        
+    </style>
+</head>
+<body>
+     <h1>Heading</h1>
+
+     <p id = "one">Lorem ipsum dolor sit amet consectetur adipisicing elit. Asperiores eos rerum debitis, dolorum in voluptates esse aperiam animi eius, nam quae sint illum magni sed ex soluta minima, adipisci numquam!</p>
+     
+     <div class="container">
+         <h1>Heading inside div</h1>
+         <p>Para under div</p>
+     </div>
+
+     <div>
+     <h3>heading 3 inside div</h3>
+    </div>
+    <h3>heading 3</h3>
+
+     <a class ="container" href="">link to nothing</a>
+     
+     <h6>heading 6</h6>
+
+     <p class="container2"> class container2 applied on me</p>
+     <p class="container container2" >I have both the classes</p>
+
+     <h1>Grouping</h1>
+
+     <a class="one" href="">Not updated yet</a>
+     <h3 class="two">Heading 3</h3>
+     <p class="three">this is a para</p>
+
+
+
+</body>
+</html>
