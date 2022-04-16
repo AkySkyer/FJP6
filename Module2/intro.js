@@ -19,9 +19,28 @@ for(let i=1; i<=5; i++){
     console.log(i);
 }
 
-let count = 10;
+let count = 5;
 while(count>0){
     console.log(count);
     count--;
 }
+
+// is prime
+let n = 17;
+let isPrime = true;
+
+for(let i=2; i*i<=n; i++){
+    if(n%i == 0){
+        isPrime = false;
+    }
+}
+if(isPrime == true){
+    console.log("Number is Prime");
+}
+else{
+    console.log("Number is not Prime")
+}
+
+
+
 
