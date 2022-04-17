@@ -21,12 +21,27 @@ console.log(elemArr);
 console.log("####################################################################")
 
 //Ararys Methods
-//1.Push
-console.log("Array before push: " + elemArr);
+//1.Push ----> add element at end
+console.log("Array before push: " , elemArr);
 elemArr.push("new item");
-console.log("After push" + elemArr);
+console.log("After push: " , elemArr ,"\n");
 
-//2.Pop
-console.log("Array before pop: " + elemArr);
+//2.Pop ----> remove elemnt from end
+console.log("Array before pop: " , elemArr);
 elemArr.pop();
-console.log("After pop" + elemArr);
+console.log("After pop: " , elemArr, "\n");
+
+//3. shift ---> remove element from start
+console.log("Array before shift: " , elemArr);
+elemArr.shift();
+console.log("Array before shift: " , elemArr, "\n");
+
+//4. unshift ---> add element at start
+
+console.log("Array before unshift: " , elemArr);
+elemArr.unshift("newly added");
+console.log("Array before unshift: " , elemArr, "\n");
+
+//length
+let len = elemArr.length;
+console.log(len);
